@@ -56,9 +56,20 @@ export default class Service {
             const blinked = leftEAR <= EAR_THRESHOLD && rightEAR <= EAR_THRESHOLD;
             if (!blinked) continue;
             if (!shouldRun()) continue
+            this.#checkClosedEye(leftEAR, rightEAR)
+
             return blinked
         }
         return false
+    }
+
+    #checkClosedEye(left, right) {
+        if (left < right) {
+            return console.log("left eye")
+        }
+        if (right < left) {
+            return console.log("right eye")
+        }
     }
 
     #estimateFaces(video) {
