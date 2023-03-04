@@ -13,6 +13,10 @@ Marque esse projeto com uma estrela 🌟
 - Este projeto foi criado usando Node.js v19.6
 - O ideal é que você use o projeto em ambiente Unix (Linux). Se você estiver no Windows, é recomendado que use o [Windows Subsystem Linux](https://www.omgubuntu.co.uk/how-to-install-wsl2-on-windows-10) pois nas aulas são mostrados comandos Linux que possam não existir no Windows.
 
+## Live Demo
+
+- Para testar o projeto final [clique aqui](https://emersonfully.github.io/semana-javascript-expert07/initial-template)
+
 ## Importante
 
 - Todo dia às 18hrs estou subindo o código das aulas do dia corrente em [classes](./classes). Se você for iniciar o projeto, remova a pasta [classes](./classes) para iniciar do zero!
@@ -31,7 +35,7 @@ Marque esse projeto com uma estrela 🌟
   - [x] - Deve disparar scroll up quando usar a palma das mãos abertas 🖐
   - [x] - Deve disparar scroll down quando usar a palma das mãos fechadas ✊
   - [x] - Deve disparar click no elemento mais próximo quando usar gesto de pinça 🤏🏻
-  - [] - Ao mover elementos na tela, deve disparar evento **:hover** em elementos em contexto
+  - [x] - Ao mover elementos na tela, deve disparar evento **:hover** em elementos em contexto
 
 - Video Player
   - [x] - Deve ser possivel de reproduzir ou pausar videos com o piscar de olhos 😁
